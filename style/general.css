@@ -35,6 +35,10 @@ body {
   margin-left: auto;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
+  border: 0.1rem solid red;
+}
+ul {
+  list-style: none;
 }
 
 
@@ -44,6 +48,7 @@ body {
   .container {
     max-width: 475px;
   }
+  
 }
 
 /*|| sm*/

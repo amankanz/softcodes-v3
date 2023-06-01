@@ -1,1 +1,30 @@
+.hero {
+  text-align: center;
+}
 
+.hero ul li {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.gallery_container {
+  position: relative;
+}
+.gallery_1, .gallery_2, .gallery_3, .gallery_4, .gallery_5, .gallery_6, .gallery_7 {
+  /* position: absolute; */
+  border-radius: 50%;
+}
+
+.gallery_1 {
+  background-color: rebeccapurple;
+  /* right: 10rem; */
+  height: 10em;
+  width: 10em;
+}
+.gallery_2 {
+  background-color: red;
+  /* right: 450px; */
+  /* top: 15px; */
+  height: 10em;
+  width: 10em;
+}
