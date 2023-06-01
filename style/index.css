@@ -26,9 +26,13 @@ header {
   gap: 1.5rem;
   width: max-content;
   margin-bottom: 1em;
+  transition: 0.3s;
 }
 .nav-list li a {
   font-size: 1.5em;
+}
+.nav-list li a:hover {
+  color: var(--sideBGcolor);
 }
 header a {
   text-decoration: none;
@@ -48,3 +52,47 @@ header a {
   background-color: var(--sideBGcolor);
   color: var(--bgColor);
 } 
+.marquee_container {
+  overflow: hidden;
+  min-height: 100%;
+  width: auto;
+  border-top: .2rem solid #000;
+  border-bottom: .2rem solid #000;
+}
+.marquee_text {
+  display: flex;
+  font-size: 3rem;
+  color: var(--textColor);
+  white-space: nowrap;
+  animation: marquee 25s linear infinite;
+
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.marquee_text p {
+  font-size: 1em;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 4px;
+  -webkit-text-stroke: .1rem #000;
+  color: #FFFFFF;
+}
+.marquee_text div {
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  background-color: var(--sideBGcolor);
+  margin: 0 1em;
+  align-self: center;
+}
+.marquee_text div .second_start {
+  background-color: #ffffff;
+}
+
