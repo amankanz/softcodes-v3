@@ -10,16 +10,31 @@
 main section:nth-child(n+2) {
   text-align: center;
 }
+main section ul {
+  list-style: none;
+}
 .filter {
   font-size: 1.6rem;
 }
+.filter:hover {
+  color: var(--sideBGcolor);
+}
+
 .enquiry-text {
   font-size: 2em;
+  padding: 3rem 0;
 }
+.enquiry-text ul li, a {
+  color: var(--textColor);
+}
+
+
 .contact-info {
   transition: 0.3s;
   font-size: 1.4rem;
-
+  border-top: .1rem solid var(--iconBGcolor);
+  border-bottom: .1rem solid var(--iconBGcolor);
+  padding: 1.5rem 0;
 }
 .contact-info div ul li a  {
   text-decoration: none;
@@ -29,4 +44,29 @@ main section:nth-child(n+2) {
 }
 .contact-info div ul li a:hover {
   color: var(--sideBGcolor);
+}
+.contact-info div:nth-child(3) {
+  margin-top: 2em;
+}
+
+.join-link {
+  font-size: 1.4rem;
+  padding: 3.5em 0 1em 0;
+}
+
+footer .marquee_text {
+  display: flex;
+  font-size: 3.5rem;
+  color: var(--textColor);
+  white-space: nowrap;
+  animation: marquee 25s linear infinite;
+
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(80%);
+  }
+  100% {
+    transform: translateX(-80%);
+  }
 }
