@@ -1,0 +1,32 @@
+/* Global variable */
+:root{
+  --sideBGcolor:#0000FF;
+  --themeColor:#FFBF00;
+  --textColor:#353535;
+  --iconBGcolor:#2c2f3f;
+  --bgColor:#f7f7f7;
+}
+
+main section:nth-child(n+2) {
+  text-align: center;
+}
+.filter {
+  font-size: 1.6rem;
+}
+.enquiry-text {
+  font-size: 2em;
+}
+.contact-info {
+  transition: 0.3s;
+  font-size: 1.4rem;
+
+}
+.contact-info div ul li a  {
+  text-decoration: none;
+  color: var(--textColor);
+  letter-spacing: normal;
+  line-height: 1.5em;
+}
+.contact-info div ul li a:hover {
+  color: var(--sideBGcolor);
+}
