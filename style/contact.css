@@ -16,7 +16,10 @@ main section ul {
 .filter {
   font-size: 1.6rem;
 }
-.filter:hover {
+.filter a {
+  text-decoration: none;
+}
+.filter a:hover {
   color: var(--sideBGcolor);
 }
 
