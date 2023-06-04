@@ -1,3 +1,13 @@
+/* Global variable */
+:root{
+  --sideBGcolor:#0000FF;
+  --themeColor:#FFBF00;
+  --textColor:#353535;
+  --iconBGcolor:#2c2f3f;
+  --bgColor:#f7f7f7;
+}
+
+
 .hero {
   text-align: center;
 }
@@ -15,10 +25,7 @@
   flex-direction: column;
   align-items: center;
 }
-.gallery_1, .gallery_2, .gallery_3, .gallery_4, .gallery_5, .gallery_6, .gallery_7 {
-  /* position: absolute; */
-  /* border-radius: 50%; */
-}
+
 .gallery_container > * {
   border-radius: 50%;
 }
@@ -66,7 +73,92 @@
 
 /*START OF INTRO-TEXT*/
 .intro_title {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 600;
 }
+.intro_text {
+  font-size: 1.6rem;
+}
+.learn-more-btn {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.learn-more-btn a {
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: var(--themeColor);
+  padding: 1em 2em;
+  border-radius: .3em;
+  text-decoration: none;
+  color: var(--textColor);
+}
+.learn-more-btn a:hover {
+  background-color: var(--sideBGcolor);
+  color: var(--bgColor);
+}
 /*END OF INTRO-TEXT*/
+
+/*== START OF PROJECT SECTION ==*/
+.project {
+  position: relative;
+  display: flex;
+  /* flex-wrap: wrap;
+  text-align: center; */
+  flex-direction: column;
+  align-items: center;
+}
+.project_gallery > * {
+  /* position: absolute; */
+  border-radius: 50%;
+  height: 10em;
+  width: 10em;
+  
+}
+.project_1 {
+  background-color: rebeccapurple;
+
+}
+.project_2 {
+  background-color: rgb(204, 71, 48);
+  
+}
+.project_3 {
+  background-color: rgb(48, 110, 204);
+  
+}
+
+.project_4 {
+  background-color: rgb(194, 204, 48);
+ 
+}
+
+.project_5 {
+  background-color: rgb(186, 175, 204);
+  
+}
+.button_project {
+  display: flex;
+  background-color: var(--themeColor);
+  border-radius: 50%;
+  height: 10em;
+  width: 10em;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+}
+/* .button_project:hover {
+  background-color: var(--themeColor);
+}  */
+.button_project a {
+  background-color: var(--themeColor);
+  color: var(--textColor);
+  padding: .65em 1em;
+  border-radius: .3em;
+  text-decoration: none;
+}
+.button_project a:hover {
+  background-color: var(--sideBGcolor);
+  color: var(--bgColor);
+}
+
+/*== END OF PROJECT SECTION ==*/
