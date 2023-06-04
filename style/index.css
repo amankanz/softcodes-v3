@@ -17,6 +17,9 @@
 }
 .gallery_1, .gallery_2, .gallery_3, .gallery_4, .gallery_5, .gallery_6, .gallery_7 {
   /* position: absolute; */
+  /* border-radius: 50%; */
+}
+.gallery_container > * {
   border-radius: 50%;
 }
 
@@ -60,3 +63,10 @@
   height: 10em;
   width: 10em;
 }
+
+/*START OF INTRO-TEXT*/
+.intro_title {
+  font-size: 3em;
+  font-weight: 600;
+}
+/*END OF INTRO-TEXT*/
