@@ -1,0 +1,79 @@
+/* Global variable */
+:root{
+  --sideBGcolor:#0000FF;
+  --themeColor:#FFBF00;
+  --textColor:#353535;
+  --iconBGcolor:#2c2f3f;
+  --bgColor:#f7f7f7;
+}
+/*== START OF HERO SECTION ==*/
+/* .hero:nth-child(n+1) {
+  text-align: start;
+} */
+.hero .hero-title {
+  text-align: start;
+}
+
+.hero-title div:nth-child(1) {
+  font-size: 2em;
+  margin-bottom: 1.5em;
+}
+.hero-title div:nth-child(2) {
+  font-size: 7.75em;
+  font-weight: 600;
+  margin-bottom: .5em;
+}
+.hero-title div:nth-child(3) {
+  font-size: 2.65em;
+  font-family: serif;
+  font-weight: 300;
+}
+.hero-title div:nth-child(n+3) {
+  margin-bottom: 1em;
+}
+.hero-title div:nth-child(n+4) {
+  font-size: 1.5em;
+}
+.hero-title div:nth-child(5) {
+  margin-bottom: 8em;
+}
+/*== END OF HERO SECTION ==*/
+
+/*== START OF TEAM SECTION ==*/
+.team-sec {
+}
+.team-sec .team-intro {
+  font-size: 3.5em;
+  margin-bottom: 1.5em;
+}
+.team-sec .button_project {
+  flex-direction: column;
+  transition: 0.3s;
+}
+.team-sec .button_project div {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+.team-sec .button_project:hover {
+  background-color: var(--sideBGcolor);
+  color: var(--bgColor);
+
+}
+.team-sec .button_project a {
+  font-size: 1.3rem;
+  font-weight: 500;
+
+}
+.team-close-statement {
+  font-size: 3.5em;
+  margin: 1em 0;
+}
+
+/*== END OF TEAM SECTION ==*/
+/*== START OF SKILLS SECTION ==*/
+.skills .title {
+  font-size: 1.4em;
+  margin: 1.3em 0;
+}
+/*== END OF SKILLS SECTION ==*/
