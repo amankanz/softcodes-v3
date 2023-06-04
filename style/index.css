@@ -10,6 +10,7 @@
 
 .hero {
   text-align: center;
+  margin-bottom: 4.5em;
 }
 
 .hero ul li {
@@ -72,12 +73,20 @@
 }
 
 /*START OF INTRO-TEXT*/
+.intro_text {
+  border-top: .1rem solid var(--iconBGcolor);
+
+}
+.intro_text:nth-child(n+1) {
+  text-align: start;
+}
 .intro_title {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 600;
 }
-.intro_text {
+.intro_text p {
   font-size: 1.6rem;
+  /* align-self: self-start; */
 }
 .learn-more-btn {
   margin-top: 3rem;
