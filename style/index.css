@@ -110,8 +110,8 @@
 .project_gallery > * {
   /* position: absolute; */
   border-radius: 50%;
-  height: 10em;
-  width: 10em;
+  height: 20em;
+  width: 20em;
   
 }
 .project_1 {
@@ -140,8 +140,8 @@
   display: flex;
   background-color: var(--themeColor);
   border-radius: 50%;
-  height: 10em;
-  width: 10em;
+  height: 20em;
+  width: 20em;
   /* text-align: center; */
   justify-content: center;
   align-items: center;
@@ -152,6 +152,8 @@
 .button_project a {
   background-color: var(--themeColor);
   color: var(--textColor);
+  font-size: 1.6rem;
+  font-weight: 500;
   padding: .65em 1em;
   border-radius: .3em;
   text-decoration: none;
