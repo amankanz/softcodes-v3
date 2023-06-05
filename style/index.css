@@ -202,7 +202,7 @@
 .my_table td:nth-child(1) {
   border-left: none;
 }
-.my_table td:nth-child(5) {
+.my_table td:nth-child(3) {
   border-right: none;
 }
 .clients .comment {
