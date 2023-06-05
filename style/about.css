@@ -19,9 +19,10 @@
   margin-bottom: 1.5em;
 }
 .hero-title div:nth-child(2) {
-  font-size: 7em;
+  font-size: 6.65em;
   font-weight: 600;
   margin-bottom: .5em;
+  text-align: center;
 }
 .hero-title div:nth-child(3) {
   font-size: 2.65em;
