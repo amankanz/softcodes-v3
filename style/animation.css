@@ -14,9 +14,20 @@
   animation-delay: 0s;
   animation-iteration-count: 1;
   animation-direction: normal;
-  animation-fill-mode: ;
+  /* animation-fill-mode: ;*/
+
 }
 
 /*== Transition ==*/
+.project_gallery .box {
+  transition-property: transform;
+  transition-duration: .9s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.project_gallery .box:hover {
+  transform: translateY(-10%);
+}
+
 
 
