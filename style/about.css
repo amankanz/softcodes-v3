@@ -72,8 +72,36 @@
 
 /*== END OF TEAM SECTION ==*/
 /*== START OF SKILLS SECTION ==*/
+.skills {
+  border-top: .1rem solid var(--iconBGcolor);
+  border-bottom: .1rem solid var(--iconBGcolor);
+}
 .skills .title {
   font-size: 1.4em;
   margin: 1.3em 0;
+  
+}
+.skill-itms {
+  display: flex;
+  border: .1 solid black;
+  border-top: .1rem solid var(--iconBGcolor);
+}
+
+.skill-log {
+  background-color: var(--themeColor);
+  padding: 4em 4em 4em 2em;
+
+}
+.skill-descrip {
+  background-color: lightgreen;
+  padding: 4em 0;
+  text-transform: uppercase;
+}
+.skill-descrip div:nth-child(1) {
+  font-size: 1.8em;
+  margin-bottom: 1em;
+}
+.skill-descrip div:nth-child(2) {
+  font-size: 1.3em;
 }
 /*== END OF SKILLS SECTION ==*/
