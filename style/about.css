@@ -26,14 +26,14 @@
 }
 .hero-title div:nth-child(3) {
   font-size: 2.65em;
-  font-family: serif;
+  font-family: sans-serif;
   font-weight: 300;
 }
 .hero-title div:nth-child(n+3) {
   margin-bottom: 1em;
 }
 .hero-title div:nth-child(n+4) {
-  font-size: 1.5em;
+  font-size: 1.35em;
 }
 .hero-title div:nth-child(5) {
   margin-bottom: 8em;
@@ -71,7 +71,74 @@
   margin: 1em 0;
 }
 
+
+.project_gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+.project_gallery > * {
+  /* position: absolute; */
+  height: 20em;
+  width: 35em;
+  border-top-left-radius: 6.5rem;
+  border-bottom-right-radius: 6.5rem;
+}
+
+.project_1 {
+  background-color: lightblue;
+
+}
+.project_2 {
+  background-color: lightcoral;
+  
+}
+.project_3 {
+  background-color: lightcyan;
+  
+}
+
+.project_4 {
+  background-color: lightgoldenrodyellow;
+ 
+}
+
+.project_5 {
+  background-color: lightgray;
+  
+}
+.button_project {
+  display: flex;
+  background-color: var(--themeColor);
+  height: 10em;
+  width: 35em;
+  border-top-left-radius: 6.5rem;
+  border-bottom-right-radius: 6.5rem;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  margin: 5em 0 5em 0;
+}
+/* .button_project:hover {
+  background-color: var(--themeColor);
+}  */
+.button_project a {
+  background-color: var(--themeColor);
+  color: var(--textColor);
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: .65em 1em;
+  border-radius: .3em;
+  text-decoration: none;
+}
+.button_project a:hover {
+  background-color: var(--sideBGcolor);
+  color: var(--bgColor);
+}
+
 /*== END OF TEAM SECTION ==*/
+
 /*== START OF SKILLS SECTION ==*/
 .skills {
   border-top: .1rem solid var(--iconBGcolor);
@@ -106,3 +173,37 @@
   font-size: 1.3em;
 }
 /*== END OF SKILLS SECTION ==*/
+
+/*== START OF EXPERTISE SECTION ==*/
+.experts {
+  border-bottom: .1rem solid var(--iconBGcolor);
+}
+.experts .title {
+  font-size: 1.4em;
+  margin: 1.3em 0;
+  text-align: start;
+}
+.experts .my_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.my_table td {
+  border: .1rem solid var(--themeColor);
+  padding: 1.5em 1em;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.my_table td:nth-child(1) {
+  border-left: none;
+}
+.my_table td:nth-child(3) {
+  border-right: none;
+}
+.experts .comment {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  margin: 1.3em 0;
+}
+/*== END OF EXPERTISE SECTION ==*/

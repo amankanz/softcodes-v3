@@ -1,0 +1,21 @@
+/* Global variable */
+:root{
+  --sideBGcolor:#0000FF;
+  --themeColor:#FFBF00;
+  --textColor:#353535;
+  --iconBGcolor:#2c2f3f;
+  --bgColor:#f7f7f7;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+.hero .project_gallery {
+  align-self: center;
+}
+.title-service {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
