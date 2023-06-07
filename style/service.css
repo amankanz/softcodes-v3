@@ -17,5 +17,108 @@
 .title-service {
   font-size: 2.5em;
   font-weight: 600;
+  text-align: center;
+  margin: 2em 0 1.5em 0;
 }
+/*== START OF PROJECT SECTION ==*/
+.project {
+  position: relative;
+  display: flex;
+  /* flex-wrap: wrap;
+  text-align: center; */
+  flex-direction: column;
+  align-items: center;
+  border-bottom: .1rem solid var(--iconBGcolor) ;
+}
+.project .title ul li {
+  font-size: 2.5em;
+  font-weight: 600;
+  
+}
+.project_gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.project_gallery > * {
+  /* position: absolute; */
+  height: 20em;
+  width: 35em;
+  border-top-left-radius: 6.5rem;
+  border-bottom-right-radius: 6.5rem;
+}
+
+.project_1 {
+  background-color: lightblue;
+
+}
+.project_2 {
+  background-color: lightcoral;
+  
+}
+.project_3 {
+  background-color: lightcyan;
+  
+}
+
+.project_4 {
+  background-color: lightgoldenrodyellow;
+ 
+}
+
+.project_5 {
+  background-color: lightgray;
+  
+}
+
+
+/*== END OF PROJECT SECTION ==*/
+
+/*== START OF SEARCH-BAR SECTION ==*/
+.search-bar {
+  display: flex;
+  gap: 2em;
+  border-top: .2rem solid var(--themeColor);
+  border-bottom: .2rem solid var(--themeColor);
+  margin-top: 2em;
+}
+.search-bar div {
+  font-size: 1.75rem;
+  color: var(--textColor);
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+/*== END OF SEARCH-BAR SECTION ==*/
+
+/*== START OF FOOTER SECTION ==*/
+footer {
+  /* margin-bottom: 8em; */
+  position: relative;
+  min-height: 60vh;
+}
+footer .contact-info {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 2em 0;
+
+}
+footer .contact-info div:nth-child(1) {
+  /* margin-top: 2em; */
+  text-align: start;
+  position: absolute;
+  bottom: 0;
+}
+footer .contact-info div:nth-child(3) {
+  margin-top: 2em;
+}
+footer .contact-info div:nth-child(4) {
+  margin-top: 2em;
+}
+footer .contact-info div:nth-child(4) ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+/*== END OF FOOTER SECTION ==*/
 

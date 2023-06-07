@@ -72,43 +72,43 @@
 }
 
 
-.project_gallery {
+.team_gallery {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
   align-items: center;
-  gap: 2em;
+  justify-content: center;
+  gap: 5em;
 }
-.project_gallery > * {
+.team_gallery > * {
   /* position: absolute; */
-  height: 20em;
-  width: 35em;
+  height: 35em;
+  width: 20em;
   border-top-left-radius: 6.5rem;
   border-bottom-right-radius: 6.5rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.project_1 {
-  background-color: lightblue;
-
+.staff_1 {
+  background-image: url(../images/staff/img-1.JPG);
 }
-.project_2 {
-  background-color: lightcoral;
-  
+.staff_2 {
+  background-image: url(../images/staff/img-2.JPG);  
 }
-.project_3 {
-  background-color: lightcyan;
-  
+.staff_3 {
+  background-image: url(../images/staff/img-3.JPG);  
 }
 
-.project_4 {
-  background-color: lightgoldenrodyellow;
- 
+.staff_4 {
+  background-image: url(../images/staff/img-4.JPG);
 }
 
-.project_5 {
-  background-color: lightgray;
-  
+.staff_5 {
+  background-image: url(../images/staff/img-5.JPG);  
 }
-.button_project {
+.button_project, .button_brief {
   display: flex;
   background-color: var(--themeColor);
   height: 10em;
@@ -120,10 +120,8 @@
   align-items: center;
   margin: 5em 0 5em 0;
 }
-/* .button_project:hover {
-  background-color: var(--themeColor);
-}  */
-.button_project a {
+
+.button_project a, .button_brief a {
   background-color: var(--themeColor);
   color: var(--textColor);
   font-size: 1.6rem;
@@ -132,7 +130,7 @@
   border-radius: .3em;
   text-decoration: none;
 }
-.button_project a:hover {
+.button_project a:hover, .button_brief a:hover {
   background-color: var(--sideBGcolor);
   color: var(--bgColor);
 }
@@ -156,8 +154,15 @@
 }
 
 .skill-log {
-  background-color: var(--themeColor);
+  background-image: url(../images/logo-imgs/softcodes-logo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: right;
   padding: 4em 4em 4em 2em;
+  /* border-radius: 50%; */
+  min-height: 2.5em;
+  min-width: 2.5em;
 
 }
 .skill-descrip {
@@ -206,4 +211,46 @@
   font-size: 1.3em;
   margin: 1.3em 0;
 }
+.button_brief {
+  display: flex;
+  text-align: center;
+  transition: 0.3s;
+}
+.button_brief:hover {
+  background-color: var(--sideBGcolor);
+} 
 /*== END OF EXPERTISE SECTION ==*/
+
+/*== START OF FOOTER SECTION ==*/
+footer {
+  /* margin-bottom: 8em; */
+  position: relative;
+  min-height: 60vh;
+}
+footer .contact-info {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 2em 0;
+
+}
+footer .contact-info div:nth-child(1) {
+  /* margin-top: 2em; */
+  text-align: start;
+  position: absolute;
+  bottom: 0;
+}
+footer .contact-info div:nth-child(3) {
+  margin-top: 2em;
+}
+footer .contact-info div:nth-child(4) {
+  margin-top: 2em;
+}
+footer .contact-info div:nth-child(4) ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+/*== END OF FOOTER SECTION ==*/
+
+
