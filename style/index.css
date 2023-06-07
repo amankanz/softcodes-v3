@@ -19,65 +19,61 @@
 }
 
 .gallery_container {
-  position: relative;
+  background-color: var(--themeColor);
   display: flex;
-  /* flex-wrap: wrap;
-  text-align: center; */
-  flex-direction: column;
   align-items: center;
+  /* border: .75rem solid var(--sideBGcolor); */
+  border-top-left-radius: 6.5rem;
+  border-bottom-right-radius: 6.5rem;
+  /* border-style: double; */
+  overflow: hidden;
+  position: relative;
+  min-width: 20rem;
+  min-height: 30rem;
+  margin: 0 auto;
+
 }
 
-.gallery_container > * {
-  border-radius: 50%;
+.box {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 1s ease-in-out;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-#box-1 {
+.box:nth-child(1) {
   background-image: url(../images/img-1.JPG);
-  /* right: 10rem; */
-  height: 10em;
-  width: 10em;
-  
 }
-#box-2 {
-  background-image: url(/images/img-2.JPG);
-  /* right: 450px; */
-  /* top: 15px; */
-  height: 10em;
-  width: 10em;
+.box:nth-child(2) {
+  background-image: url(../images/img-2.JPG);
 }
-#box-3 {
-  background-image: url(/images/img-3.JPG);
-  /* right: 150px;
-  top: 380px; */
-  height: 10em;
-  width: 10em;
+.box:nth-child(3) {
+  background-image: url(../images/img-3.JPG);
 }
-.gallery_4 {
-  /* right: 550px;
-  top: 370px; */
-  background-image: url(/images/img-4.JPG);
-  height: 10em;
-  width: 10em;
-  display: none;
+.box:nth-child(4) {
+  background-image: url(../images/img-4.JPG);
 }
-.gallery_5 {
-  /* top: 10px;
-  right: 750px; */
-  background-image: url(/images/img-5.JPG);
-  height: 10em;
-  width: 10em;
-  display: none;
+.box:nth-child(5) {
+  background-image: url(../images/img-5.JPG);
 }
-.gallery_6 {
-  /* top: 300px; */
-  background-image: url(/images/img-6.JPG);
-  height: 10em;
-  width: 10em;
-  display: none;
+.box:nth-child(6) {
+  background-image: url(../images/img-6.JPG);
 }
+.box:nth-child(7) {
+  background-image: url(../images/img-7.JPG);
+}
+.box:nth-child(8) {
+  background-image: url(../images/img-8.JPG);
+}
+.box:nth-child(9) {
+  background-image: url(../images/img-9.JPG);
+}
+
 
 /*START OF INTRO-TEXT*/
 .intro_text {
@@ -135,6 +131,11 @@
   height: 20em;
   width: 20em;
   
+}
+#project1, #project2, #project3 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .project_1 {
   background-color: rebeccapurple;
