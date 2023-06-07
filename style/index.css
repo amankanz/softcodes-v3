@@ -14,7 +14,7 @@
 }
 
 .hero ul li {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 600;
 }
 
@@ -29,23 +29,27 @@
 
 .gallery_container > * {
   border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.gallery_1 {
-  background-color: rebeccapurple;
+#box-1 {
+  background-image: url(../images/img-1.JPG);
   /* right: 10rem; */
   height: 10em;
   width: 10em;
+  
 }
-.gallery_2 {
-  background-color: red;
+#box-2 {
+  background-image: url(/images/img-2.JPG);
   /* right: 450px; */
   /* top: 15px; */
   height: 10em;
   width: 10em;
 }
-.gallery_3 {
-  background-color: skyblue;
+#box-3 {
+  background-image: url(/images/img-3.JPG);
   /* right: 150px;
   top: 380px; */
   height: 10em;
@@ -54,22 +58,25 @@
 .gallery_4 {
   /* right: 550px;
   top: 370px; */
-  background-color: aqua;
+  background-image: url(/images/img-4.JPG);
   height: 10em;
   width: 10em;
+  display: none;
 }
 .gallery_5 {
   /* top: 10px;
   right: 750px; */
-  background-color: greenyellow;
+  background-image: url(/images/img-5.JPG);
   height: 10em;
   width: 10em;
+  display: none;
 }
 .gallery_6 {
   /* top: 300px; */
-  background-color: rgb(65, 73, 52);
+  background-image: url(/images/img-6.JPG);
   height: 10em;
   width: 10em;
+  display: none;
 }
 
 /*START OF INTRO-TEXT*/
