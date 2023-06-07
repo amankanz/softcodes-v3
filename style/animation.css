@@ -19,13 +19,13 @@
 }
 
 /*== Transition ==*/
-.project_gallery .box {
+.project_gallery .project-box {
   transition-property: transform;
   transition-duration: .9s;
   transition-timing-function: ease;
   transition-delay: 0s;
 }
-.project_gallery .box:hover {
+.project_gallery .project-box:hover {
   transform: translateY(-10%);
 }
 

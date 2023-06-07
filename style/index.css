@@ -125,18 +125,19 @@
   font-weight: 600;
   
 }
+.project_gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
 .project_gallery > * {
   /* position: absolute; */
-  border-radius: 50%;
   height: 20em;
-  width: 20em;
-  
+  width: 35em;
+  border-top-left-radius: 6.5rem;
+  border-bottom-right-radius: 6.5rem;
 }
-#project1, #project2, #project3 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+
 .project_1 {
   background-color: rebeccapurple;
 
@@ -162,12 +163,14 @@
 .button_project {
   display: flex;
   background-color: var(--themeColor);
-  border-radius: 50%;
-  height: 20em;
-  width: 20em;
+  height: 10em;
+  width: 35em;
+  border-top-left-radius: 6.5rem;
+  border-bottom-right-radius: 6.5rem;
   /* text-align: center; */
   justify-content: center;
   align-items: center;
+  margin: 5em 0 5em 0;
 }
 /* .button_project:hover {
   background-color: var(--themeColor);
