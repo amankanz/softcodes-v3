@@ -30,6 +30,10 @@ main section ul {
 .enquiry-text ul li, a {
   color: var(--textColor);
 }
+.enquiry-text ul li a {
+  /* text-decoration: underline; */
+  border-bottom: .1rem solid var(--textColor);
+}
 
 
 .contact-info {
