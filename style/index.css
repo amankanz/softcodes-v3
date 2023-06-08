@@ -178,10 +178,11 @@
   justify-content: center;
   align-items: center;
   margin: 5em 0 5em 0;
+  transition: 0.3s;
 }
-/* .button_project:hover {
-  background-color: var(--themeColor);
-}  */
+.button_project:hover {
+  background-color: var(--sideBGcolor);
+} 
 .button_project a {
   background-color: var(--themeColor);
   color: var(--textColor);
