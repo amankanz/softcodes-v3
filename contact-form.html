@@ -4,21 +4,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>softcodes-v3</title>
+  <title>Contact-form</title>
   <link rel="stylesheet" href="./style/general.css">
   <link rel="stylesheet" href="./style/header.css">
-  <link rel="stylesheet" href="./style/contact.css">
+  <link rel="stylesheet" href="./style/animation.css">
+  <link rel="stylesheet" href="./style/contact-form.css">
 </head>
 <body>
-  <!--START OF HEADER NAVBAR-->
   <header class="header container">
     <div class="logo"><a href="./index.html">LOGO</a></div>
     <nav>
       <ul  class="nav-list">
-        <li><a href="./service.html">SERVICE</a></li>
+        <li><a href="#">SERVICE</a></li>
         <li><a href="./about.html">ABOUT</a></li>
         <li><a href="#">SHOPPING</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a href="./contact.html">CONTACT</a></li>
       </ul>
     </nav>
     <div class="hire-us-btn"><a href="./contact.html">HIRE US</a></div>
@@ -39,18 +39,45 @@
       </div>
     </div>
   </header>
-  <!--END OF HEADER NAV-->
-
   <main>
-    <section class="filter container"><a href="./index.html">CLOSE</a></section>
-    <section class="container enquiry-text">
-      <ul>
-        <li>FOR ANY ENQUIRY</li>
-        <li>OR JUST TO SAY Habari!</li>
-        <li>REACH OUT <a href="./contact-form.html">HERE</a></li>
-      </ul>
-    </section>
+    <section class="hero container"><!--START FORM SECTION-->
+      <div class="titel-form">
+        <ul>
+          <li>Let's do something together? Get in touch for questions, budgets and parterships at</li>
+          <li><a href="mailto:info@softcodes?Subject=Habari!">habari@softcodes.dev</a> or leave your message here!</li>
+        </ul>
+      </div>
+
+      <div class="form-container">
+        <form>
+          <div class="box">
+            <input type="text" placeholder="Full Name">
+          </div>
+          <div class="box">
+            <input type="email" placeholder="Email">
+          </div>
+          <div class="box">
+            <textarea id="message" placeholder="Your Message"></textarea>
+          </div>
+          <div class="box">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section><!--END FORM SECTION-->
+
+  </main>
+
+  <footer class="container"><!--START OF FOOTER-->
     <section class="contact-info container">
+      <div>
+        <ul>
+          <li><a href="#">&copy;2023</a></li>
+          <li><a href="#">ALL RIGHT RESERVED.</a></li>
+          <li><a href="#">WEBSITE BY A-F KANEZA</a></li>
+        </ul>
+      </div>
+
       <div>
         <ul>
           <li><a href="#">INFO@ SOFTCODES.</a></li>
@@ -75,18 +102,7 @@
         </ul>
       </div>
     </section>
-    <section class="join-link container">
-      <ul>
-        <li>WE'RE ALWAYS KEEN TO HEAR</li>
-        <li>FROM OTHER PROBLEM SOLVER,</li>
-        <li>CREATIVE, ANALYTICAL MINDS.</li>
-        <li>DROP US A LINE AT</li>
-        <li><a href="mailto:info@softcodes?Subject=JOBAPPLICATION">jobapplicationlink.com</a></li>
-      </ul>
-    </section>
-  </main>
-
-  <footer class="container">
+    
     <div class="marquee_container">
       <div class="marquee_text">
         <p>WELCOME</p>
@@ -100,6 +116,6 @@
         <p>KARIBU</p>
       </div>
     </div>
-  </footer>
+  </footer><!--END OF FOOTER-->
 </body>
 </html>
