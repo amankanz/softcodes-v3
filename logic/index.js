@@ -15,3 +15,20 @@ window.addEventListener('load', () => {
     setInterval(showNextBox, animationDuration); // Schedule subsequent sliding animations
   }, 0.3); // Delay the start of the sliding animation by 1 second
 });
+
+/*== START TESTIMONIALS SECTION ==*/
+const testimonialContainer = document.querySelector('.testimonial-container');
+const slider = document.querySelector('.testimonial-slider');
+let isHovered = false;
+
+testimonialContainer.addEventListener('mouseover', () => {
+  isHovered = true;
+  slider.style.animationPlayState = 'paused';
+});
+
+testimonialContainer.addEventListener('mouseout', () => {
+  isHovered = false;
+  slider.style.animationPlayState = 'running';
+});
+/*== END TESTIMONIALS SECTION ==*/
+

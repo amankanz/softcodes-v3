@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TESTEMONIAL</title>
+  <style>
+    .testimonial-container {
+      width: 500px;
+      overflow: hidden;
+      position: relative;
+      border: 1px solid red;
+      margin: 0 auto;
+      padding: 0 40px;
+    }
+
+    .testimonial-slider {
+      display: flex;
+      width: fit-content;
+      animation: slide 35s linear infinite;
+    }
+
+    .testimonial {
+      flex: 0 0 400px;
+      padding: 20px 50px;
+      background-color: yellow;
+      margin-right: 20px;
+      text-align: center;
+    }
+
+    .testimonial img {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 10px;
+    }
+
+    .testimonial-message {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    @keyframes slide {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(calc(-400px * 5));
+      }
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="testimonial-container">
+    <div class="testimonial-slider">
+      <div class="testimonial">
+        <img src="testimonial1.jpg" alt="Testimonial 1">
+        <p class="testimonial-message">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ad assumenda sit soluta ipsum repellat autem eius cumque maiores culpa.
+        </p>
+      </div>
+      <div class="testimonial">
+        <img src="testimonial2.jpg" alt="Testimonial 2">
+        <p class="testimonial-message">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eaque voluptas quia vero molestias neque eius quasi porro est iusto?
+        </p>
+      </div>
+      <div class="testimonial">
+        <img src="testimonial3.jpg" alt="Testimonial 3">
+        <p class="testimonial-message">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam id illo accusantium delectus, asperiores dolorum quas pariatur recusandae quam veritatis.
+        </p>
+      </div>
+      <div class="testimonial">
+        <img src="testimonial4.jpg" alt="Testimonial 4">
+        <p class="testimonial-message">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis odit eveniet beatae perspiciatis eaque ipsa corrupti nesciunt qui vel deleniti.
+        </p>
+      </div>
+      <div class="testimonial">
+        <img src="testimonial5.jpg" alt="Testimonial 5">
+        <p class="testimonial-message">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias atque velit quae tempora unde perspiciatis, officiis quisquam eius obcaecati amet?
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  <script>
+    const testimonialContainer = document.querySelector('.testimonial-container');
+    const slider = document.querySelector('.testimonial-slider');
+    let isHovered = false;
+
+    testimonialContainer.addEventListener('mouseover', () => {
+      isHovered = true;
+      slider.style.animationPlayState = 'paused';
+    });
+
+    testimonialContainer.addEventListener('mouseout', () => {
+      isHovered = false;
+      slider.style.animationPlayState = 'running';
+    });
+
+  </script>
+</body>
+</html>
