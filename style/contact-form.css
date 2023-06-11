@@ -53,6 +53,13 @@ textarea:focus {
   border-style: none;
 
 }
+
+/* .box input[type="text"]:focus,
+.box input[type="email"]:focus,
+.box textarea:focus {
+  border-color: yellow;
+} */
+
 input[type="text"]:focus::placeholder,
 input[type="email"]:focus::placeholder,
 textarea:focus::placeholder {
