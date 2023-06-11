@@ -198,10 +198,10 @@
 }
 
 /*== END OF PROJECT SECTION ==*/
+
+
 /*== START OF CLIENTS TABLE ==*/
-.clients {
-  /* border-bottom: .1rem solid var(--iconBGcolor); */
-}
+
 .clients .title {
   font-size: 1.4em;
   margin: 1.3em 0;
@@ -239,7 +239,7 @@
 
 .testimonial-container {
   min-width: 50rem;
-  /* overflow: hidden; */
+  overflow: hidden;
   position: relative;
   padding: 0 4em;
   margin: 0 auto;
