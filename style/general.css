@@ -124,6 +124,8 @@ a {
   }
 }/*=== END OF min-width: 475px ===*/
 
+
+
 /*|| sm*/
 @media screen and (min-width: 640px) {
   .container {
@@ -203,6 +205,7 @@ a {
     border-top-right-radius: 6.5rem;
     border-bottom-right-radius: 6.5rem;
     border-bottom-left-radius: 6.5rem;
+  }  
 }/*=== END OF min-width: 640px ===*/
 
 /*|| md*/
@@ -231,4 +234,5 @@ a {
   .container {
     max-width: 1536px;
   }
-}
+
+};
