@@ -25,13 +25,14 @@ header {
 .nav-list {
   list-style: none;
   display: flex;
-  /* gap: 1.5rem; */
+  gap: 1.5rem;
   width: max-content;
-  /* margin-bottom: 1em; */
+  margin-bottom: 1em;
   transition: 0.3s;
 }
 .nav-list li a {
-  font-size: 1.5em;
+  font-size: 1.2em;
+  font-weight: 500;
 }
 .nav-list li a:hover {
   color: var(--sideBGcolor);

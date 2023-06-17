@@ -112,8 +112,8 @@
 }
 .project_gallery > * {
   /* position: absolute; */
-  height: 20em;
-  width: 35em;
+  min-height: 8em;
+  min-width: 20em;
   border-top-left-radius: 6.5rem;
   border-bottom-right-radius: 6.5rem;
 }
