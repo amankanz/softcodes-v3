@@ -88,6 +88,25 @@ button:hover {
 }
 /*== END OF FORM SECTION ==*/
 
+/*== START OF LOCATION ==*/
+.map-location {
+  margin-top: 5em;
+  flex-basis: 40%;
+  min-width: 40%;
+  border-radius: 1rem;
+  padding: 3em;
+  text-align: center;
+}
+.map-location div:nth-child(1) {
+  margin-bottom: 2em;
+} 
+.map-location div h4 {
+  font-weight: 500;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+/*== END OF LOCATION ==*/
+
 /*== START OF FOOTER SECTION ==*/
 footer {
   /* margin-bottom: 8em; */
