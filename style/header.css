@@ -17,6 +17,13 @@ header {
   padding: 1.5rem 0;
   overflow: hidden;
 }
+.header-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  max-width: 100%;
+}
 /* header div, nav {
   background-color: aquamarine;
   flex: 1;
