@@ -63,10 +63,10 @@ a {
     border-bottom-left-radius: 3.5rem;
   }
   #intro_lines {
-    font-size: 1.6rem;
+    font-size: 2.6rem;
   }
   #intro_title {
-    font-size: 2.4rem;
+    font-size: 3.5rem;
     margin-bottom: .9em;
   }
   .project #title {
@@ -182,13 +182,13 @@ a {
   }
   #nav-list li a {
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 300;
   }
   #hire-us-btn a {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 500;
     background-color: var(--themeColor);
-    padding: 1em 2em;
+    padding: .95em 2.5em;
     border-radius: .3em;
   }
   .hero {
@@ -225,9 +225,18 @@ a {
     border-radius: .3em;
   }
   /*== START OF PROJECT SECTION ==*/
+  .project #title {
+    margin: 7em 0 3em 0;
+  }
+  .project #title ul li {
+    font-size: 3.5em;
+  }
+  #project_gallery {
+    gap: 5em;
+  }
   #project_gallery > * {
-    min-height: 25em;
-    min-width: 40em;
+    min-height: 35em;
+    min-width: 50em;
     border-top-left-radius: 7.5rem;
     border-top-right-radius: 4.5rem;
     border-bottom-right-radius: 7.5rem;
@@ -240,7 +249,11 @@ a {
     border-bottom-right-radius: 7.5rem;
     border-bottom-left-radius: 4.5rem;
   }
-
+  .clients #title {
+    font-size: 1.6em;
+    margin: 1.3em 0;
+    text-align: start;
+  }
 
   #title-testimonial {
     font-size: 2em;
@@ -257,6 +270,111 @@ a {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+  #nav-list {
+    gap: 5rem;
+    margin-bottom: 1em;
+  }
+  #nav-list li a {
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+  #hire-us-btn {
+    margin: 1em 0 2em 0;
+  }
+  #hire-us-btn a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: var(--themeColor);
+    padding: .95em 2.5em;
+    border-radius: .3em;
+  }
+  #intro_text {
+    border-top: none;
+  }
+  #intro_text:nth-child(n+1) {
+    text-align: start;
+    padding-left: 14em;
+  }
+  #intro_title {
+    font-size: 4em;
+    border-top: .3rem solid var(--textColor);
+    margin-bottom: .5em;
+    display: inline-block;
+    padding-right: .5em;
+  }
+  #intro_lines {
+    font-size: 1.8rem;
+  }
+  #learn-more-btn a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: .9em 2.5em;
+
+  }
+  #intro-bar {
+    background-color: var(--textColor);
+    min-height: .3rem;
+    min-width: 20rem;
+    display: inline-block;
+    margin-top: 2em;
+  }
+  .project #title {
+    margin: 10em 0 5em 0;
+  }
+  .project #title ul li {
+    font-size: 4em;
+  }
+  #project_gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4em;
+    text-align: center;
+    justify-content: center;
+  }
+  #project_gallery > * {
+    min-height: 30em;
+    min-width: 30em;
+    border-top-left-radius: 8.5rem;
+    border-top-right-radius: 5.5rem;
+    border-bottom-right-radius: 8.5rem;
+    border-bottom-left-radius: 5.5rem;
+
+  }
+
+  .clients #title {
+    font-size: 2.6em;
+    margin: .5em 0;
+    text-align: start;
+  }
+  #my_table td {
+    border: .1rem solid var(--themeColor);
+    padding: 1.5em 1em;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 600;
+  }
+  #my_table td:nth-child(1) {
+    border-left: none;
+  }
+  #my_table td:nth-child(3) {
+    border-right: none;
+  }
+  .clients #comment {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    margin: 1.5em 0;
+    border-bottom: .1rem solid var(--iconBGcolor);
+    padding-bottom: 1.5em;
+  
+  }
+  #testimonial-comment {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    margin: 1.5em 0;
   }
 }
 
