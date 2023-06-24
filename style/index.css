@@ -301,14 +301,14 @@
   color: var(--bgColor);
 }
 
-/* @keyframes slide {
+@keyframes slide {
   0% {
     transform: translateX(80);
   }
   100% {
     transform: translateX(calc(-40rem * 4));
   }
-} */
+}
 .testimonial-comment {
   text-align: center;
   text-transform: uppercase;
