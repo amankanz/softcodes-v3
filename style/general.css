@@ -50,8 +50,19 @@ a {
   .container {
     max-width: 360px;
   }
-  .nav-list {
-    font-size: 1.2em;
+  #logo img {
+    /* font-size: 4em;
+    font-weight: 600; */
+    width: auto;
+    height: 100%; 
+    max-height: 6.5rem;
+    object-fit: contain;
+    vertical-align: middle;
+  }
+ 
+  #nav-list li a {
+    font-size: 1.3rem;
+    font-weight: 300;
   }
   .hero-sec-title {
     font-size: 1.3em;
@@ -90,6 +101,13 @@ a {
     border-bottom-right-radius: 6.5rem;
     border-bottom-left-radius: 3.5rem;
   }
+  .my_table td img {
+    width: auto;
+    height: 100%;
+    max-height: 6.5rem;
+    object-fit: contain;
+    vertical-align: middle;
+  }
 
 
   #title-testimonial {
@@ -109,9 +127,22 @@ a {
   .container {
     max-width: 475px;
   }
+  #logo img {
+    /* font-size: 4em;
+    font-weight: 600; */
+    width: auto;
+    height: 100%; 
+    max-height: 7.5rem;
+    object-fit: contain;
+    vertical-align: middle;
+  }
   #nav-list {
     gap: 2.5rem;
     margin-bottom: 1em;
+  }
+  #nav-list li a {
+    font-size: 1.5rem;
+    font-weight: 300;
   }
   .hero {
     margin-bottom: 4.5em;
@@ -154,6 +185,13 @@ a {
     border-bottom-right-radius: 7.5rem;
     border-bottom-left-radius: 4.5rem;
   }
+  .my_table td img {
+    width: auto;
+    height: 100%;
+    max-height: 7.5rem;
+    object-fit: contain;
+    vertical-align: middle;
+  }
 
 
   #title-testimonial {
@@ -175,6 +213,15 @@ a {
 @media screen and (min-width: 640px) {
   .container {
     max-width: 640px;
+  }
+  #logo img {
+    /* font-size: 4em;
+    font-weight: 600; */
+    width: auto;
+    height: 100%; 
+    max-height: 8.5rem;
+    object-fit: contain;
+    vertical-align: middle;
   }
   #nav-list {
     gap: 4.5rem;
@@ -254,6 +301,13 @@ a {
     margin: 1.3em 0;
     text-align: start;
   }
+  .my_table td img {
+    width: auto;
+    height: 100%;
+    max-height: 8.5rem;
+    object-fit: contain;
+    vertical-align: middle;
+  }
 
   #title-testimonial {
     font-size: 2em;
@@ -270,6 +324,15 @@ a {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+  #logo img {
+    /* font-size: 4em;
+    font-weight: 600; */
+    width: auto;
+    height: 100%; 
+    max-height: 9rem;
+    object-fit: contain;
+    vertical-align: middle;
   }
   #nav-list {
     gap: 5rem;
@@ -355,6 +418,13 @@ a {
     font-size: 1.9rem;
     font-weight: 600;
   }
+  .my_table td img {
+    width: auto;
+    height: 100%;
+    max-height: 9rem;
+    object-fit: contain;
+    vertical-align: middle;
+  }
   #my_table td:nth-child(1) {
     border-left: none;
   }
@@ -390,21 +460,27 @@ a {
     align-items: center;
     max-width: 100%;
     margin-bottom: 2em;
+    margin-top: 2em;
   }
-  #logo {
-    font-size: 5em;
-    font-weight: 700;
+  #logo img {
+    /* font-size: 4em;
+    font-weight: 600; */
+    width: auto;
+    height: 100%; 
+    max-height: 9.5rem;
+    object-fit: contain;
+    vertical-align: middle;
   }
   #nav-list {
-    gap: 3rem;
+    gap: 2rem;
   }
   #nav-list li a {
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-weight: 300;
   }
   #hire-us-btn a {
-    font-size: 1.7em;
-    font-weight: 600;
+    font-size: 1.5em;
+    font-weight: 700;
     background-color: var(--themeColor);
     padding: 1em 3.5em;
     border-radius: .3em;
@@ -487,6 +563,15 @@ a {
     border-bottom-right-radius: 8.5rem;
     border-bottom-left-radius: 5.5rem;
 
+  }
+
+
+  .my_table td img {
+    width: auto;
+    height: 100%;
+    max-height: 9.5rem;
+    object-fit: contain;
+    vertical-align: middle;
   }
 
 }

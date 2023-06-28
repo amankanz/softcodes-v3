@@ -218,6 +218,7 @@
   font-size: 1.3rem;
   font-weight: 600;
 }
+
 .my_table td:nth-child(1) {
   border-left: none;
 }
