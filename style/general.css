@@ -73,13 +73,14 @@ a {
     border-bottom-right-radius: 6.5rem;
     border-bottom-left-radius: 3.5rem;
   }
-  #intro_lines {
-    font-size: 2.6rem;
-  }
   #intro_title {
-    font-size: 3.5rem;
+    font-size: 2.4em;
     margin-bottom: .9em;
   }
+  #intro_lines {
+    font-size: 2rem;
+  }
+  
   .project #title {
     margin: 5em 0 2em 0;
   }
@@ -107,6 +108,20 @@ a {
     max-height: 6.5rem;
     object-fit: contain;
     vertical-align: middle;
+  }
+  #my_table td:nth-child(1) {
+    border-left: none;
+  }
+  #my_table td:nth-child(2) {
+    border-right: none;
+  }
+  #my_table td:nth-child(3) {
+    border-right: none;
+    display: none;
+  }
+  #my_table td:nth-child(4) {
+    border-right: none;
+    display: none;
   }
 
 
@@ -185,12 +200,35 @@ a {
     border-bottom-right-radius: 7.5rem;
     border-bottom-left-radius: 4.5rem;
   }
+  .clients #my_table {
+    /* background-color: pink; */
+    width: 40%;
+    border-collapse: collapse;
+    
+  }
   .my_table td img {
     width: auto;
     height: 100%;
     max-height: 7.5rem;
     object-fit: contain;
     vertical-align: middle;
+  }
+  #my_table td:nth-child(1) {
+    border-left: none;
+  }
+  #my_table td:nth-child(2) {
+    border-right: none;
+  }
+  #my_table td:nth-child(3) {
+    border-right: none;
+    display: none;
+  }
+  #my_table tr:nth-child(4) {
+    display: block;
+  }
+  #my_table td:nth-child(4) {
+    border-right: none;
+    display: block;
   }
 
 
@@ -307,6 +345,20 @@ a {
     max-height: 8.5rem;
     object-fit: contain;
     vertical-align: middle;
+  }
+  #my_table td:nth-child(1) {
+    border-left: none;
+  }
+  #my_table td:nth-child(2) {
+    border-right: none;
+  }
+  #my_table td:nth-child(3) {
+    border-right: none;
+    display: block;
+  }
+  #my_table td:nth-child(4) {
+    border-right: none;
+    display: block;
   }
 
   #title-testimonial {
