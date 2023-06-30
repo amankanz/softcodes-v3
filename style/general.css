@@ -200,12 +200,7 @@ a {
     border-bottom-right-radius: 7.5rem;
     border-bottom-left-radius: 4.5rem;
   }
-  .clients #my_table {
-    /* background-color: pink; */
-    width: 40%;
-    border-collapse: collapse;
-    
-  }
+  
   .my_table td img {
     width: auto;
     height: 100%;
@@ -219,17 +214,8 @@ a {
   #my_table td:nth-child(2) {
     border-right: none;
   }
-  #my_table td:nth-child(3) {
-    border-right: none;
-    display: none;
-  }
-  #my_table tr:nth-child(4) {
-    display: block;
-  }
-  #my_table td:nth-child(4) {
-    border-right: none;
-    display: block;
-  }
+ 
+
 
 
   #title-testimonial {
@@ -240,6 +226,12 @@ a {
     border-top-right-radius: 3.5rem;
     border-bottom-right-radius: 6.5rem;
     border-bottom-left-radius: 3.5rem;
+  }
+
+
+
+  #footer {
+    min-height: 75vh;
   }
   
   
