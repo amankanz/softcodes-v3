@@ -344,14 +344,7 @@ a {
   #my_table td:nth-child(2) {
     border-right: none;
   }
-  #my_table td:nth-child(3) {
-    border-right: none;
-    display: block;
-  }
-  #my_table td:nth-child(4) {
-    border-right: none;
-    display: block;
-  }
+ 
 
   #title-testimonial {
     font-size: 2em;
